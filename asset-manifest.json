@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-homework-template/static/css/main.befe576b.css",
+    "main.js": "/react-homework-template/static/js/main.1998a11a.js",
+    "index.html": "/react-homework-template/index.html",
+    "main.befe576b.css.map": "/react-homework-template/static/css/main.befe576b.css.map",
+    "main.1998a11a.js.map": "/react-homework-template/static/js/main.1998a11a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.befe576b.css",
+    "static/js/main.1998a11a.js"
+  ]
+}
