@@ -41,8 +41,8 @@ class FeedBack extends Component {
         return Object.values(this.state).reduce((total, number) => { return total + number }, 0);
     };
     countPositiveFeedbackPercentage = () => {
-        // щоб округлити число до другої цифри після десяткової крапки, ми можемо помножити число на 100, викликати функцію округлення і потім поділити його назад.
-        return (Math.round((this.state.good / this.countTotalFeedback()) * 100) / 100);
+        // щоб округлити число до другої цифри після десяткової крапки, ми можемо помножити число на 100, викликати функцію округлення і потім поділити його назад. Але так як нам треба відсотки, то на 100 не ділимо
+        return (Math.round((this.state.good / this.countTotalFeedback()) * 100));
     };
 
     render() {
